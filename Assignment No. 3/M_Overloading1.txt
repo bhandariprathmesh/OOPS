@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class M_Overloading1{
+	public void name(String n){
+		System.out.println("Name :"+n);
+	}
+	public void name(String n,int r){
+		System.out.println("Name :"+n);
+		System.out.println("Roll No. :"+r);
+	}
+	
+	public static void main(String args[]){
+
+		M_Overloading1 n = new M_Overloading1();
+		System.out.println(n.name("Prathmesh"));
+		System.out.println(n.name("Prathmesh",93);
+	}
+		
+}
